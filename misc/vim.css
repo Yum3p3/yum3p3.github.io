@@ -78,27 +78,18 @@ h1 {
     white-space: nowrap;
 }
 
-.black-link {
-    color: black !important;
-}
-
-.black-link:visited {
-    color: black !important;
-}
-
-.black-link:hover {
-    color: black !important;
-}
-
-.black-link:active {
-    color: black !important;
-}
-
 a,
 a:link,
 a:visited,
 a:active {
     color: #fffdd0;
+}
+
+a.black-link,
+a.black-link:visited,
+a.black-link:hover,
+a.black-link:active {
+    color: black !important;
 }
 
 #text {
