@@ -295,7 +295,7 @@ async function boot() {
 
     bootbtn.classList.add("diss");
 
-    SHELL.innerHTML = "YumeOS 1.0-yume (tty)<br />website login: _";
+    SHELL.innerHTML = "YumeOS 1.1-yume (tty)<br />website login: _";
 
     await sleep(100);
     await writeInput(USER, 50, 100);
