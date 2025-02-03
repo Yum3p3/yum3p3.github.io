@@ -79,19 +79,19 @@ h1 {
 }
 
 .black-link {
-    color: black;
+    color: black !important;
 }
 
 .black-link:visited {
-    color: black;
+    color: black !important;
 }
 
 .black-link:hover {
-    color: black;
+    color: black !important;
 }
 
 .black-link:active {
-    color: black;
+    color: black !important;
 }
 
 a,
