@@ -86,19 +86,19 @@ a:active {
 }
 
 .black-link {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .black-link:visited {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .black-link:hover {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .black-link:active {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #text {
