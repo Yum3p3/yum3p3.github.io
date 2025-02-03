@@ -90,7 +90,7 @@ const NEOFETCH = `<pre><span class="cream">/////////////               /////////
 <span class="cream">                   /// </span></pre>`
 
 const FILES = `<pre>.:
-bin misc profiles
+bin misc profiles sites
 
 ./bin:
 <a href="#" id="clear">clear</a> <a href="#" id="neofetch">neofetch</a>
@@ -99,7 +99,11 @@ bin misc profiles
 <a href="#" id="bio">biography.txt</a> 
 
 ./profiles:
-<a href="#" id="github">github</a> <a href="#" id="x">x</a> </pre>`
+<a href="#" id="github">github</a> <a href="#" id="x">x</a> 
+
+./sites:
+
+</pre>`
 
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
@@ -206,7 +210,7 @@ async function boot() {
     
     bootphrasesudev = [ 
         "<span class='white2fg'>:: running early hook [udev]</span>",
-        "<span class='white2fg'>starting version 1.0-yume</span>",
+        "<span class='white2fg'>starting version 1.1-yume</span>",
         "<span class='white2fg'>:: running hook [udev]</span>",
         "<span class='white2fg'>:: triggering uevents...</span>",
         "<span class='white2fg'>:: performing fsck on '/dev/sda3'</span>",
