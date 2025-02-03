@@ -78,13 +78,6 @@ h1 {
     white-space: nowrap;
 }
 
-a,
-a:link,
-a:visited,
-a:active {
-    color: #fffdd0;
-}
-
 .black-link {
     color: black;
 }
@@ -99,6 +92,13 @@ a:active {
 
 .black-link:active {
     color: black;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #fffdd0;
 }
 
 #text {
