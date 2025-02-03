@@ -1,0 +1,162 @@
+HTML {
+    height: 100%;
+}
+
+body {
+    background: #0c0c0c;
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    line-height: 24px;
+    font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#terminal::-webkit-scrollbar {
+    display: none;
+}
+
+#terminal {
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 10px;
+    background: #000;
+    border-radius: 25px;
+    height: 80vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid;
+    border-color: #fffdd0;
+}
+
+#dot1,
+#dot2,
+#dot3 {
+    background: #d91629;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 90px;
+    border-radius: 25px;
+}
+
+#dot1 {
+    background: #d91629;
+    right: 30px;
+}
+
+#dot2 {
+    background: #ffff00;
+    right: 60px;
+}
+
+#dot3 {
+    background: #00ff6e;
+    right: 90px;
+}
+
+::selection {
+    color: #000000;
+    background: #fffdd0;
+}
+
+h1 {
+    color: #fffdd0;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    width: max-content;
+    white-space: nowrap;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #fffdd0;
+}
+
+.black-link {
+    color: black;
+}
+
+.black-link:visited {
+    color: black;
+}
+
+.black-link:hover {
+    color: black;
+}
+
+.black-link:active {
+    color: black;
+}
+
+#text {
+    max-width: 1500px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    line-height: 24px;
+}
+
+#footer {
+    background: #fff;
+    color: #000;
+    height: 28px;
+    margin-left: 12px;
+    margin-right: 12px;
+    transform: translateY(-40px);
+    border-radius: 0 0 24px 24px;
+}
+
+#back {
+    float: right;
+    transform: translateX(-95px);
+}
+
+#file {
+    float: left;
+    transform: translateX(22px);
+}
+
+#perc {
+    transform: translateX(15px);
+    float: right;
+}
+
+#end {
+    color: #ffff00;
+}
+
+#textFooter {
+    white-space: pre;
+}
+
+#shh {
+    color: #00000000;
+}
+#orange {
+    color: #ff4f00;
+    font-weight: 800;
+}
+
+#green2 {
+    color: #009942;
+}
+
+#date {
+    color: #00ff6e;
+}
